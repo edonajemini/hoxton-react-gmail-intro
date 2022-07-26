@@ -1,10 +1,7 @@
 import "./App.css";
 
  import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
- import backArrow from "./assets/icons/back-arrow.png";
- import downloadButton from "./assets/icons/download-button.png";
  import rateStarButton from "./assets/icons/rate-star-button.png";
- import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
 
  /*function header(){
   return(
@@ -26,26 +23,12 @@ import "./App.css";
   );
  }
 */
- function App(): JSX.Element {
-   return (
-     <div className="app">
-       <header className="header">
-         <div className="left-menu">
-           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
-             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-           </svg>
 
-           <img
-             src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
-             alt="gmail logo"
-           />
-         </div>
 
-         <div className="search">
-           <input className="search-bar" placeholder="Search mail" />
-         </div>
-       </header>
-       <nav className="left-menu">
+/*
+function leftMenu(){
+  return(
+<nav className="left-menu">
          <ul className="inbox-list">
            <li className="item active">
              <span className="label">Inbox</span>
@@ -62,7 +45,14 @@ import "./App.css";
            </li>
          </ul>
        </nav>
-       <main className="email-view">
+       );
+  }
+*/
+
+/*
+function main(){
+  return(
+ <main className="email-view">
          <nav className="email-toolbar">
            <ul>
              <li>
@@ -135,8 +125,19 @@ import "./App.css";
            </section>
          </article>
        </main>
-     </div>
-   );
- }
-
+    );
+  }
+*/
+import header from "./components/Header";
+import leftMenu from "./components/LeftMenu";
+import main from "./components/main";
+function App(): JSX.Element {
+  return (
+    <div className="app">
+      <header />
+      <leftMenu />
+      <main />
+    </div>
+  );
+}
  export default App;
