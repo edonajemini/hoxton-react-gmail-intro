@@ -1,4 +1,4 @@
-/*
+{/*
 function main(){
   return(
  <main className="email-view">
@@ -16,9 +16,9 @@ function main(){
     );
   }
 */
-
+}
 import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png";
-function emailBody() {
+function EmailBody() {
   return (
     <section className="email-body">
       <div className="content">
@@ -27,4 +27,4 @@ function emailBody() {
     </section>
   );
 }
-export default emailBody;
+export default EmailBody;

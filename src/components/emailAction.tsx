@@ -1,4 +1,4 @@
-/*
+{/*
 function main(){
   return(
  <main className="email-view">
@@ -11,8 +11,8 @@ function main(){
     );
   }
 */
-
-function emailActions(){
+}
+function EmailActions(){
     return(
         <section className="email-actions">
              <button>Reply</button>
@@ -20,4 +20,4 @@ function emailActions(){
            </section>
     );
 }
-export default emailActions;
+export default EmailActions;

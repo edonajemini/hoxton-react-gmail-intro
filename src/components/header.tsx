@@ -1,7 +1,7 @@
-import headerLeftMenu from "./headerLeftMenu";
-import headerSearchBar from "./headerSearchBar";
+import HeaderLeftMenu from "./HeaderLeftMenu";
+import HeaderSearchBar from "./HeaderSearchBar";
 
-/*function header(){
+{/*function header(){
   return(
     <header className="header">
     <div className="left-menu">
@@ -20,13 +20,14 @@ import headerSearchBar from "./headerSearchBar";
   );
  }
 */
-function header(){
+}
+function Header(){
     return(
         <header className="header">
-            <headerLeftMenu/>
-            <headerSearchBar/>
+            <HeaderLeftMenu/>
+            <HeaderSearchBar/>
         </header>
     )
 }
 
-export default header;
+export default Header;

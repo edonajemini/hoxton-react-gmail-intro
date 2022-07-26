@@ -1,4 +1,4 @@
-/*
+{/*
 function main(){
   return(
  <main className="email-view">
@@ -77,20 +77,21 @@ function main(){
     );
   }
 */
-import emailToolBar from "./emailToolBar";
-import emailTitle from "./emailTitle";
-import emailHeader from "./emailHeader";
-import emailBody from "./emailBody";
-import emailActions from "./emailAction";
+}
+import EmailToolBar from "./EmailToolBar";
+import EmailTitle from "./EmailTitle";
+import EmailHeader from "./EmailHeader";
+import EmailBody from "./EmailBody";
+import EmailActions from "./EmailAction";
 function Main() {
     return (
       <main className="email-view">
-        <emailToolBar />
+        <EmailToolBar />
         <article className="email-content">
-          <emailTitle />
-          <emailHeader />
-          <emailBody />
-          <emailActions />
+          <EmailTitle />
+          <EmailHeader />
+          <EmailBody />
+          <EmailActions />
         </article>
       </main>
     );

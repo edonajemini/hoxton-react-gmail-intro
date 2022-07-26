@@ -1,5 +1,5 @@
 
- /*function header(){
+ {/*function header(){
   return(
     <header className="header">
     <div className="search">
@@ -9,7 +9,8 @@
   );
  }
 */
-function headerSearchBar(){
+ }
+function HeaderSearchBar(){
     return(
         <div className="search">
         <input className="search-bar" placeholder="Search mail" />
@@ -17,4 +18,4 @@ function headerSearchBar(){
     );
 }
 
-export default headerSearchBar;
+export default HeaderSearchBar;

@@ -1,4 +1,4 @@
- /*function header(){
+ {/*function header(){
   return(
     <header className="header">
     <div className="left-menu">
@@ -13,7 +13,8 @@
   );
  }
 */
-function headerLeftMenu(){
+ }
+function HeaderLeftMenu(){
     return(
         <div className="left-menu">
         <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
@@ -28,4 +29,4 @@ function headerLeftMenu(){
     );
 }
 
-export default headerLeftMenu;
+export default HeaderLeftMenu;

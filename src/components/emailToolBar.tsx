@@ -1,4 +1,4 @@
-/*
+{/*
 function main(){
   return(
          <nav className="email-toolbar">
@@ -23,12 +23,12 @@ function main(){
     );
   }
 */
-
+}
 import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
 import backArrow from "./assets/icons/back-arrow.png";
 import downloadButton from "./assets/icons/download-button.png";
 
-function emailToolBar(){
+function EmailToolBar(){
     return(
         <nav className="email-toolbar">
         <ul>
@@ -51,4 +51,4 @@ function emailToolBar(){
       </nav>
     );
   }
-export default emailToolBar;
+export default EmailToolBar;

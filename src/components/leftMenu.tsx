@@ -1,4 +1,5 @@
-/*
+
+{/*
 function leftMenu(){
   return(
 <nav className="left-menu">
@@ -21,7 +22,8 @@ function leftMenu(){
        );
   }
 */
-function leftMenu(){
+}
+function LeftMenu(){
     return(
         <nav className="left-menu">
         <ul className="inbox-list">
@@ -42,4 +44,4 @@ function leftMenu(){
       </nav>
   );
 }
-export default leftMenu;
+export default LeftMenu;

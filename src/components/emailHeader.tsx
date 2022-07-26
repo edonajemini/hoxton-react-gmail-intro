@@ -1,4 +1,4 @@
-/*
+{/*
 function main(){
   return(
  <main className="email-view">
@@ -54,11 +54,12 @@ function main(){
     );
   }
 */
+}
 import backArrow from "../assets/icons/back-arrow.png";
 import rateStarButton from "../assets/icons/rate-star-button.png";
 import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png";
 
-function emailHeader() {
+function EmailHeader() {
   return (
     <header className="email-content--header">
       <div className="avatar"></div>
@@ -92,4 +93,4 @@ function emailHeader() {
     </header>
   );
 }
-export default emailHeader;
+export default EmailHeader;

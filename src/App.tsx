@@ -2,7 +2,7 @@ import "./App.css";
 
  import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
  import rateStarButton from "./assets/icons/rate-star-button.png";
-
+{
  /*function header(){
   return(
     <header className="header">
@@ -128,15 +128,16 @@ function main(){
     );
   }
 */
-import header from "./components/Header";
-import leftMenu from "./components/LeftMenu";
-import main from "./components/main";
+}
+import Header from "./components/Header";
+import LeftMenu from "./components/LeftMenu";
+import Main from "./components/Main";
 function App(): JSX.Element {
   return (
     <div className="app">
-      <header />
-      <leftMenu />
-      <main />
+      <Header />
+      <LeftMenu />
+      <Main />
     </div>
   );
 }
