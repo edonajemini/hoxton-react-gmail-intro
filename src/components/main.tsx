@@ -1,13 +1,13 @@
-import EmailContent from "./EmailContentMain";
-import EmailToolbar from "./EmailToolbarMain";
+import EmailContentMain from "./EmailContentMain"
+import EmailToolbarMain from "./EmailToolbarMain"
 
 function Main() {
     return (
         <main className="email-view">
 
-            <EmailToolbar />
+            <EmailToolbarMain />
 
-            <EmailContent />
+            <EmailContentMain />
         </main> 
     )
 }

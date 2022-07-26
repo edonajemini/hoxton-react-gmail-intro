@@ -1,4 +1,4 @@
-function SearchBar() {
+function SearchBarHeader() {
     return (
         <div className="search">
             <input className="search-bar" placeholder="Search mail" />
@@ -6,4 +6,4 @@ function SearchBar() {
     )
 }
 
-export default SearchBar
+export default SearchBarHeader

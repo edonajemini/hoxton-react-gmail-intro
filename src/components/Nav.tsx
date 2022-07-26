@@ -1,10 +1,11 @@
-import InboxList from "./InboxListNav"
+import InboxListNav from "./InboxListNav"
+
 
 function Nav() {
     return (
         <nav className="left-menu">
 
-            <InboxList />
+            <InboxListNav />
 
         </nav>
     )

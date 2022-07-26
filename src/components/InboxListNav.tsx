@@ -1,4 +1,4 @@
-function InboxList() {
+function InboxListNav() {
     return (
         <ul className="inbox-list">
             <li className="item active">
@@ -18,4 +18,4 @@ function InboxList() {
     )
 }
 
-export default InboxList
+export default InboxListNav

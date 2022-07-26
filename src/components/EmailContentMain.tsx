@@ -1,6 +1,6 @@
 import EmailContentArticle from "./EmailContentArticle";
 
-function EmailContent() {
+function EmailContentMain() {
     return (
 
         <EmailContentArticle />
@@ -8,4 +8,4 @@ function EmailContent() {
     )
 }
 
-export default EmailContent
+export default EmailContentMain

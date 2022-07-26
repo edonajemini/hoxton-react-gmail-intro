@@ -3,7 +3,7 @@ import downloadButton from "../assets/icons/download-button.png";
 import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png";
 
 
-function EmailToolbar() {
+function EmailToolbarMain() {
     return (
         <nav className="email-toolbar">
             <ul>
@@ -27,4 +27,4 @@ function EmailToolbar() {
     )
 }
 
-export default EmailToolbar
+export default EmailToolbarMain

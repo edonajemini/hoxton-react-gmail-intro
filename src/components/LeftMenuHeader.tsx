@@ -1,4 +1,4 @@
-function LeftMenu() {
+function LeftMenuHeader() {
     return (
         <div className="left-menu">
             <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
@@ -13,4 +13,4 @@ function LeftMenu() {
     )
 }
 
-export default LeftMenu
+export default LeftMenuHeader

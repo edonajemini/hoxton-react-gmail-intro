@@ -1,13 +1,13 @@
-import LeftMenu from "./LeftMenuHeader"
-import SearchBar from "./SearchBarHeader"
+import LeftMenuHeader from "./LeftMenuHeader"
+import SearchBarHeader from "./SearchBarHeader"
 
 function Header() {
     return (
         <header className="header">
 
-            <LeftMenu />
+            <LeftMenuHeader />
 
-            <SearchBar />
+            <SearchBarHeader />
 
         </header>
     )
