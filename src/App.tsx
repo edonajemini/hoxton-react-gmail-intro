@@ -1,9 +1,4 @@
-import "./App.css";
-
- import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
- import rateStarButton from "./assets/icons/rate-star-button.png";
-{
- /*function header(){
+/*function header(){
   return(
     <header className="header">
     <div className="left-menu">
@@ -128,17 +123,20 @@ function main(){
     );
   }
 */
-}
+import "./App.css";
+
 import Header from "./components/Header";
-import LeftMenu from "./components/LeftMenu";
+import Nav from "./components/Nav";
 import Main from "./components/Main";
+
 function App(): JSX.Element {
   return (
     <div className="app">
       <Header />
-      <LeftMenu />
+      <Nav />
       <Main />
     </div>
   );
 }
- export default App;
+
+export default App;
