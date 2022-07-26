@@ -7,8 +7,8 @@ function Main() {
 
             <EmailToolbar />
 
-            <EmailContent />>
-        </main>
+            <EmailContent />
+        </main> 
     )
 }
 

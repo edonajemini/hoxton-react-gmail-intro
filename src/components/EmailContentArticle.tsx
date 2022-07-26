@@ -1,6 +1,5 @@
-import EmailActions from "./EmailActions";
-import EmailBody from "./EmailBody";
 import EmailContentHeader from "./EmailContentHeader";
+import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png";
 
 function EmailContentArticle() {
     return (
@@ -8,11 +7,18 @@ function EmailContentArticle() {
         <div className="title">
             <h1>Welcome to Flaticon</h1>
         </div>
+
             <EmailContentHeader />
 
-            <EmailBody />
-
-            <EmailActions />
+            <section className="email-body">
+            <div className="content">
+                <img src={flaticonWelcomeImage} alt="Flaticon welcome message" />
+            </div>
+        </section>
+        <section className="email-actions">
+            <button>Reply</button>
+            <button>Forward</button>
+        </section>
 
         </article>
 

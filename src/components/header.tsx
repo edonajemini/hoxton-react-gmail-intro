@@ -1,6 +1,5 @@
 import LeftMenu from "./LeftMenuHeader"
 import SearchBar from "./SearchBarHeader"
-import Search from "./SearchBarHeader"
 
 function Header() {
     return (
