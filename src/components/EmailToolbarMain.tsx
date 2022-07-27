@@ -1,4 +1,4 @@
-import backArrow from "../assets/icons/backArrow.png";
+import backArrow from "../assets/icons/back-Arrow.png";
 import downloadButton from "../assets/icons/download-button.png";
 import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png";
 
